@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CuadernoDeTexto
+comment1.params=nombreDelFabricante\ numeroDeHojas
+comment1.target=CuadernoDeTexto(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getFabricante()
+comment3.params=
+comment3.target=int\ getNumeroHojas()
+comment4.params=
+comment4.target=boolean\ getCuadricula()
+comment5.params=nombreDelFabricante
+comment5.target=void\ setFabricante(java.lang.String)
+comment6.params=hojasA\u00F1adidas
+comment6.target=void\ a\u00F1adirHojas(int)
+comment7.params=
+comment7.target=void\ alterarCuadricula()
+numComments=8
