@@ -40,11 +40,19 @@ public class CuadernoDeTexto {
     }
     
     public void imprimirEstado() {
-        System.out.println("Fabricante: " + nombreFabricante + " | Número de hojas: " + numeroHojas + " | Hojas cuadriculadas: " + hojasCuadriculadas);
+        String cuadricula = "Verdadero";
+        if (hojasCuadriculadas == false) {
+            cuadricula = "Falso";
+        }
+        System.out.println("Fabricante: " + nombreFabricante + " | Número de hojas: " + numeroHojas + " | Hojas cuadriculadas: " + cuadricula);
     }
     
     public String getEstado() {
-        String estadoActual = "Fabricante: " + nombreFabricante + " | Número de hojas: " + numeroHojas + " | Hojas cuadriculadas: " + hojasCuadriculadas;
+        String cuadricula = "Verdadero";
+        if (hojasCuadriculadas == false) {
+            cuadricula = "Falso";
+        }
+        String estadoActual = "Fabricante: " + nombreFabricante + " | Número de hojas: " + numeroHojas + " | Hojas cuadriculadas: " + cuadricula;
         return estadoActual;
     }
     
