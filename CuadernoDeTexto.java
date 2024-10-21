@@ -39,6 +39,13 @@ public class CuadernoDeTexto {
         }
     }
     
+    public void imprimirEstado() {
+        System.out.println("Fabricante: " + nombreFabricante + " | Número de hojas: " + numeroHojas + " | Hojas cuadriculadas: " + hojasCuadriculadas);
+    }
     
+    public String getEstado() {
+        String estadoActual = "Fabricante: " + nombreFabricante + " | Número de hojas: " + numeroHojas + " | Hojas cuadriculadas: " + hojasCuadriculadas;
+        return estadoActual;
+    }
     
 }
